@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.block {
+  width: 743px;
+  height: 91px;
+  display: flex;
+  align-items: center;
+  background-color: #3579f5;
+  border-radius: 12px;
+  padding: 16px 18px 15px 22px;
+}
+
+.steps {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 16px;
+
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.steps__number {
+  font-size: 20px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  flex-grow: 1;
+}
+
+.info__tag {
+  width: 76px;
+  height: 18px;
+  border-radius: 40px;
+  background-color: #2364db;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.info__title {
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.info__subtitle {
+  font-size: 12px;
+}
+
+.button {
+  width: 170px;
+  height: 40px;
+  background-color: #f4f8ff;
+  color: #4777ed;
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+}
